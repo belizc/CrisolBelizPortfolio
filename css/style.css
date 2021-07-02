@@ -217,12 +217,13 @@ section > div {
       
     .overlay {
         position: absolute;
-        border-radius: 7px;
-        top: 2px;
-        bottom: 2px;
+        /* border-radius: 7px; */
+        top: 0px;
+        bottom: 0px;
         left: 0;
-        right: -10px;
-        height: 80%;
+        right: 0px;
+        height: 100%;
+        width: 100%;
         opacity: 0;
         transition: .5s ease;
         background-color: black;
